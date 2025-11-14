@@ -26,7 +26,7 @@ from utils.metric import exact_match, f1_score, bleu_score, rouge_score, semanti
 # ================ Argument Parser ================
 def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate QA model performance.")
-    parser.add_argument("--data", type=str, required=True, default="hurricane", choices=['hurricane', 'geography', 'aging_dam'], help="data set.")
+    parser.add_argument("--data", required=True, choices=["hurricane", "geography", "aging_dam", "compound_flooding"])
     parser.add_argument("--model", type=str, required=True, choices=["gpt-4", "gpt-4o", "gpt-3.5-turbo", "deepseek", 'llama3', 'llama4', 'gemma', "qwen"], help="Select llm to get answer.")
     parser.add_argument("--retrieval_method", type=str, default="hypercube", choices=['hypercube', 'semantic', 'union', 'hipporag', 'contriever', 'graphrag', 'bm25', 'none'], help="Retrieval methods.")
     parser.add_argument("--metric", type=str, default="all", choices=["em", "f1", "bleu", "rouge", "semantic", "all"], help="Evaluation metric: one score or multiple scores.")
@@ -37,18 +37,25 @@ def parse_args():
 def main():
     args = parse_args()
 
-    if args.retrieval_method == 'none':
-        llm_output_dir = f"output/{args.data}/{args.model}/llm_output_no_rag.json"
-    elif args.retrieval_method == 'bm25':
-        llm_output_dir = f"output/{args.data}/{args.model}/llm_output_bm25.json"
-    elif args.retrieval_method == 'contriever':
-        llm_output_dir = f"output/{args.data}/{args.model}/llm_output_semantic_contriever.json"
-    elif args.retrieval_method == 'graphrag':
-        llm_output_dir = f"output/{args.data}/{args.model}/llm_output_graphrag.json"
-    elif args.retrieval_method == 'hipporag':
-        llm_output_dir = f"output/{args.data}/{args.model}/llm_output_hipporag.json"
+    # Special handling for compound_flooding, since qa_rag_CF.py writes elsewhere
+    if args.data == "compound_flooding":
+        # This matches what qa_rag_CF.py currently saves:
+        # QA/compound_flooding/compound_flooding_gpt-4o_hypercube.json
+        llm_output_dir = f"QA/compound_flooding/{args.data}_{args.model}_{args.retrieval_method}.json"
     else:
-        llm_output_dir = f"output/{args.data}/{args.model}/llm_output_{args.retrieval_method}.json"
+        # Original behavior for hurricane, geography, aging_dam
+        if args.retrieval_method == 'none':
+            llm_output_dir = f"output/{args.data}/{args.model}/llm_output_no_rag.json"
+        elif args.retrieval_method == 'bm25':
+            llm_output_dir = f"output/{args.data}/{args.model}/llm_output_bm25.json"
+        elif args.retrieval_method == 'contriever':
+            llm_output_dir = f"output/{args.data}/{args.model}/llm_output_semantic_contriever.json"
+        elif args.retrieval_method == 'graphrag':
+            llm_output_dir = f"output/{args.data}/{args.model}/llm_output_graphrag.json"
+        elif args.retrieval_method == 'hipporag':
+            llm_output_dir = f"output/{args.data}/{args.model}/llm_output_hipporag.json"
+        else:
+            llm_output_dir = f"output/{args.data}/{args.model}/llm_output_{args.retrieval_method}.json"
 
 
     # Load dataset
@@ -61,9 +68,16 @@ def main():
     total_em, total_f1, total_bleu, total_rouge, total_semantic = 0, 0, 0, 0, 0
 
     for i, sample in enumerate(qa_samples):
-        print(f"Sample: {i+1}")
-        gold_answer = sample["gold_answer"]  
+    print(f"Sample: {i+1}")
+
+    # Different key names for compound_flooding vs the original datasets
+    if args.data == "compound_flooding":
+        gold_answer = sample["answer_gold"]
+        predicted_answer = sample["answer_pred"]
+    else:
+        gold_answer = sample["gold_answer"]
         predicted_answer = sample["predicted_answer"]
+
 
         # print(f">>> Predicted: {predicted_answer}")
         # print(f">>> Ground Truth: {gold_answer}")

@@ -1,0 +1,755 @@
+[
+  {
+    "id": "CF_001",
+    "question": "What is compound flooding?",
+    "answer": "Compound flooding occurs when multiple flood drivers such as storm surge, heavy rainfall, tides, and river discharge interact to produce flood levels higher than any driver alone."
+  },
+  {
+    "id": "CF_002",
+    "question": "What natural processes commonly interact to create compound flooding?",
+    "answer": "Storm surge, extreme rainfall, tides, river discharge, and wind-driven setup often interact to create compound flooding conditions."
+  },
+  {
+    "id": "CF_003",
+    "question": "How does storm surge contribute to compound flood severity?",
+    "answer": "Storm surge raises coastal water levels, reducing the ability of rivers and rainfall to drain into the ocean and increasing flood depth inland."
+  },
+  {
+    "id": "CF_004",
+    "question": "In what way can heavy rainfall amplify storm surge impacts?",
+    "answer": "Heavy rainfall increases surface runoff and river flows, adding freshwater volume to already elevated coastal water levels caused by surge."
+  },
+  {
+    "id": "CF_005",
+    "question": "How do tides affect compound flood events?",
+    "answer": "High tides elevate baseline water levels so that when rainfall or surge occurs simultaneously, total water levels rise more quickly."
+  },
+  {
+    "id": "CF_006",
+    "question": "Why is river discharge an important factor in compound flooding?",
+    "answer": "High upstream discharge raises river levels, and when combined with surge or tides, drainage efficiency decreases, causing further flooding."
+  },
+  {
+    "id": "CF_007",
+    "question": "How does coastal topography influence compound flood risk?",
+    "answer": "Low-lying and gently sloped coastal areas allow water to accumulate easily and slow drainage during compound events."
+  },
+  {
+    "id": "CF_008",
+    "question": "What human activities increase compound flood vulnerability?",
+    "answer": "Urbanization, loss of wetlands, hardened coastlines, and inadequate drainage systems increase vulnerability by reducing natural water absorption."
+  },
+  {
+    "id": "CF_009",
+    "question": "Why are estuaries highly susceptible to compound flooding?",
+    "answer": "Estuaries connect rivers and oceans, making them sensitive to both upstream freshwater flows and downstream surge and tidal effects."
+  },
+  {
+    "id": "CF_010",
+    "question": "How does land subsidence contribute to compound flooding?",
+    "answer": "Land subsidence lowers ground elevation, increasing exposure to coastal water level rise and reducing drainage capacity."
+  },
+  {
+    "id": "CF_011",
+    "question": "How does sea-level rise affect compound flood frequency?",
+    "answer": "Sea-level rise elevates baseline water levels, enabling moderate rainfall or storms to create flooding more frequently."
+  },
+  {
+    "id": "CF_012",
+    "question": "Why do hurricanes frequently produce compound flooding?",
+    "answer": "Hurricanes generate storm surge, intense rainfall, strong winds, and elevated tides—all of which interact to increase flooding severity."
+  },
+  {
+    "id": "CF_013",
+    "question": "How does storm speed influence compound flood impacts?",
+    "answer": "Slow-moving storms produce prolonged rainfall, which can overlap with high tides or surge to create more extensive flooding."
+  },
+  {
+    "id": "CF_014",
+    "question": "What types of infrastructure are most impacted by compound flooding?",
+    "answer": "Roads, bridges, stormwater systems, wastewater networks, electrical infrastructure, and coastal defenses are commonly impacted."
+  },
+  {
+    "id": "CF_015",
+    "question": "How does poor drainage infrastructure worsen compound flooding?",
+    "answer": "Blocked or undersized drains prevent rainfall from escaping, increasing flood depths during periods of elevated coastal water levels."
+  },
+  {
+    "id": "CF_016",
+    "question": "Why does forecasting compound floods remain challenging?",
+    "answer": "Forecasting is challenging due to nonlinear interactions between atmospheric, hydrological, and oceanic processes across time and space."
+  },
+  {
+    "id": "CF_017",
+    "question": "How does stormwater runoff play a role in compound flooding?",
+    "answer": "Stormwater runoff adds rapid surface flow during rainfall events, which contributes to flooding when drainage is impeded by surge or tides."
+  },
+  {
+    "id": "CF_018",
+    "question": "How do atmospheric rivers contribute to compound flood events?",
+    "answer": "Atmospheric rivers deliver concentrated moisture, leading to extreme rainfall that can coincide with high tides or storm surge."
+  },
+  {
+    "id": "CF_019",
+    "question": "Why do deltas face extreme compound flood risk?",
+    "answer": "Deltas face sea-level rise, subsidence, storm surge exposure, and high river discharge, making them vulnerable to overlapping flood drivers."
+  },
+  {
+    "id": "CF_020",
+    "question": "How does soil saturation impact compound flooding?",
+    "answer": "Saturated soils cannot absorb additional rainfall, increasing runoff and raising flood peaks during compound events."
+  },
+  {
+    "id": "CF_021",
+    "question": "What is pluvial flooding and how does it relate to compound floods?",
+    "answer": "Pluvial flooding occurs when rainfall overwhelms drainage systems, and it can combine with coastal flooding to create compound impacts."
+  },
+  {
+    "id": "CF_022",
+    "question": "What is fluvial flooding and how can it combine with surge?",
+    "answer": "Fluvial flooding occurs when rivers overflow due to high discharge, and when paired with surge, it creates dangerous backwater effects."
+  },
+  {
+    "id": "CF_023",
+    "question": "What role do wetlands play in reducing compound flooding?",
+    "answer": "Wetlands absorb rainfall, slow river discharge, and reduce surge energy, acting as natural flood buffers."
+  },
+  {
+    "id": "CF_024",
+    "question": "How does vegetation loss increase compound flood risk?",
+    "answer": "Vegetation loss reduces soil stability and infiltration, leading to increased runoff and shoreward water intrusion."
+  },
+  {
+    "id": "CF_025",
+    "question": "Why are urban coastal areas highly vulnerable to compound floods?",
+    "answer": "Impervious surfaces increase runoff, while coastal proximity exposes urban areas to surge and tidal flooding."
+  },
+  {
+    "id": "CF_026",
+    "question": "Why does compound flooding often occur during winter storms?",
+    "answer": "Winter storms may produce heavy rainfall, strong winds, and high tides simultaneously, creating overlap among flood drivers."
+  },
+  {
+    "id": "CF_027",
+    "question": "How does wind direction affect compound coastal flooding?",
+    "answer": "Onshore winds elevate coastal water levels, amplifying rainfall-driven flooding inland."
+  },
+  {
+    "id": "CF_028",
+    "question": "What is storm tide and why is it dangerous?",
+    "answer": "Storm tide results from the combination of storm surge and astronomical tide, producing exceptionally high water levels."
+  },
+  {
+    "id": "CF_029",
+    "question": "How can rainfall prior to a storm worsen a compound event?",
+    "answer": "Pre-storm rainfall saturates soils and elevates river levels before surge arrives, increasing flood severity."
+  },
+  {
+    "id": "CF_030",
+    "question": "Why do back-barrier bays often experience extreme compound flooding?",
+    "answer": "Restricted water exchange and shallow depths make back-barrier bays sensitive to combined rainfall, surge, and wind setup."
+  },
+  {
+    "id": "CF_031",
+    "question": "What is backwater flooding?",
+    "answer": "Backwater flooding occurs when high downstream water levels block upstream flow, causing water to accumulate inland."
+  },
+  {
+    "id": "CF_032",
+    "question": "How does climate change influence the intensity of compound flooding?",
+    "answer": "Climate change intensifies rainfall, raises sea levels, and increases storm surge potential, making compound floods more common."
+  },
+  {
+    "id": "CF_033",
+    "question": "Why do low-lying islands face heightened compound flood risk?",
+    "answer": "Their elevation is close to sea level, making them vulnerable to rainfall, surge, and tides occurring together."
+  },
+  {
+    "id": "CF_034",
+    "question": "How do coastal defenses sometimes worsen compound flooding?",
+    "answer": "Coastal defenses block surge but may trap inland rainfall during high-water events, increasing urban flooding."
+  },
+  {
+    "id": "CF_035",
+    "question": "How do river-mouth cities experience compound flooding?",
+    "answer": "They face simultaneous impacts from high river flows upstream and coastal storm surge downstream."
+  },
+  {
+    "id": "CF_036",
+    "question": "How can groundwater rise contribute to compound flooding?",
+    "answer": "Elevated groundwater levels reduce soil storage and increase surface flooding during rainfall and surge events."
+  },
+  {
+    "id": "CF_037",
+    "question": "What is surge–rainfall interaction?",
+    "answer": "It is the process where storm surge reduces drainage and causes rainfall to accumulate more rapidly inland."
+  },
+  {
+    "id": "CF_038",
+    "question": "How does storm clustering affect compound flood frequency?",
+    "answer": "Multiple storms in succession leave soils saturated and water levels elevated, increasing flood risk."
+  },
+  {
+    "id": "CF_039",
+    "question": "Why do coastal river deltas experience rapid water-level rise during compound events?",
+    "answer": "Deltas have low elevation and complex channel systems that trap water from both ocean and river sources."
+  },
+  {
+    "id": "CF_040",
+    "question": "How do impermeable surfaces in cities influence compound flood dynamics?",
+    "answer": "They increase runoff volume and reduce infiltration, intensifying flood peaks during high coastal water levels."
+  },
+  {
+    "id": "CF_041",
+    "question": "Why do storm surge barriers sometimes struggle during compound events?",
+    "answer": "They block ocean water but cannot prevent inland rainfall from accumulating behind the barrier."
+  },
+  {
+    "id": "CF_042",
+    "question": "How does river channel geometry influence compound flooding?",
+    "answer": "Narrow or shallow channels restrict flow, increasing the likelihood of upstream flooding during surge events."
+  },
+  {
+    "id": "CF_043",
+    "question": "Why are coastal floodplains hotspots for compound flooding?",
+    "answer": "Their flat topography and proximity to both rivers and the ocean increase exposure to combined flood drivers."
+  },
+  {
+    "id": "CF_044",
+    "question": "How can storm duration influence compound flood impacts?",
+    "answer": "Long-duration storms produce extended rainfall that overlaps with tidal cycles and elevated coastal water levels."
+  },
+  {
+    "id": "CF_045",
+    "question": "How does snowmelt contribute to compound floods?",
+    "answer": "Snowmelt increases river discharge, which can coincide with rainfall or surge to produce high water levels."
+  },
+  {
+    "id": "CF_046",
+    "question": "What meteorological patterns increase the likelihood of compound floods?",
+    "answer": "Slow-moving low-pressure systems, atmospheric rivers, and persistent onshore winds are common precursors."
+  },
+  {
+    "id": "CF_047",
+    "question": "How do strong pressure gradients contribute to compound coastal flooding?", 
+    "answer": "Low pressure raises water levels while strong winds push water toward the coast, amplifying surge and hindering drainage."
+  },
+  {
+    "id": "CF_048",
+    "question": "Why can upstream dam releases worsen compound flooding?", 
+    "answer": "Releases increase river discharge at the same time coastal water levels may already be elevated from surge or tides."
+  },
+  {
+    "id": "CF_049",
+    "question": "How can rainfall timing relative to tide cycles influence flood severity?", 
+    "answer": "Rainfall during high tide drains slowly, causing water to accumulate more quickly and increasing flood depth."
+  },
+  {
+    "id": "CF_050",
+    "question": "What is wind-driven coastal setup?", 
+    "answer": "Wind-driven coastal setup occurs when sustained winds push water toward the shore, raising local water levels and contributing to compound flooding."
+  },
+  {
+    "id": "CF_051",
+    "question": "How does tidal range influence compound flooding?",
+    "answer": "Wide tidal ranges can amplify compound flooding because high tides elevate baseline water levels, reducing the capacity of rainfall and river flows to drain."
+  },
+  {
+    "id": "CF_052",
+    "question": "What are the main components of total water level during compound flooding?",
+    "answer": "Total water level is influenced by storm surge, tide, wave setup, rainfall-driven runoff, and river discharge."
+  },
+  {
+    "id": "CF_053",
+    "question": "How can wave action worsen compound flood conditions?",
+    "answer": "Waves add height on top of surge and tide, pushing more water inland and reducing the effectiveness of drainage systems."
+  },
+  {
+    "id": "CF_054",
+    "question": "Why are coastal drainage systems less effective during storm surge events?",
+    "answer": "Storm surge increases downstream water levels, reducing the hydraulic gradient that allows drainage systems to move water seaward."
+  },
+  {
+    "id": "CF_055",
+    "question": "How does extreme rainfall interact with elevated groundwater levels in compound flooding?",
+    "answer": "Elevated groundwater reduces soil infiltration capacity, causing more rainfall to remain at the surface and increase flood depths."
+  },
+  {
+    "id": "CF_056",
+    "question": "Why do coastal rivers back up during high tide or surge?",
+    "answer": "High coastal water levels reduce the ability of river water to discharge into the ocean, causing upstream water to accumulate."
+  },
+  {
+    "id": "CF_057",
+    "question": "How does watershed size influence compound flood severity?",
+    "answer": "Large watersheds can deliver large volumes of runoff during rainfall, which can coincide with surge or tidal events to intensify flooding."
+  },
+  {
+    "id": "CF_058",
+    "question": "How can antecedent moisture conditions contribute to compound flooding?",
+    "answer": "Wet soils from previous rainfall decrease infiltration and increase the likelihood of rapid surface runoff during subsequent storms."
+  },
+  {
+    "id": "CF_059",
+    "question": "Why are stormwater pumping systems sometimes overwhelmed during compound events?",
+    "answer": "Pumping systems have limited capacity, and when surge or tides elevate receiving water levels, pumped water has nowhere to go."
+  },
+  {
+    "id": "CF_060",
+    "question": "How does riverbed shape affect compound flood magnitude?",
+    "answer": "Shallow or constricted riverbeds slow the movement of water, increasing the likelihood of upstream flooding when combined with surge."
+  },
+  {
+    "id": "CF_061",
+    "question": "What is coastal squeeze and how does it relate to compound floods?",
+    "answer": "Coastal squeeze occurs when rising seas and development restrict natural habitat migration, reducing flood storage capacity during compound events."
+  },
+  {
+    "id": "CF_062",
+    "question": "How do elevation gradients affect compound flooding potential?",
+    "answer": "Areas with low elevation gradients drain more slowly, increasing flood duration during rainfall–surge interactions."
+  },
+  {
+    "id": "CF_063",
+    "question": "How does shoreline shape influence water accumulation during storms?",
+    "answer": "Concave coastlines can trap water, while narrow bays funnel surge inland, amplifying flood heights."
+  },
+  {
+    "id": "CF_064",
+    "question": "What is a nuisance flood and how can it become compound?",
+    "answer": "Nuisance floods are minor tidal floods that can escalate into compound events when overlapping with rainfall or wind-driven setup."
+  },
+  {
+    "id": "CF_065",
+    "question": "How do salt marshes reduce the risk of compound flooding?",
+    "answer": "Salt marshes absorb rainfall and attenuate waves and surge, reducing the combined flooding impact."
+  },
+  {
+    "id": "CF_066",
+    "question": "Why do tropical cyclones generate both coastal and inland flooding?",
+    "answer": "They deliver extreme rainfall while producing strong onshore winds and storm surge along coastlines."
+  },
+  {
+    "id": "CF_067",
+    "question": "How does river meandering affect compound flood behavior?",
+    "answer": "Meandering channels slow downflow and increase water storage, but may also amplify upstream flooding during surge events."
+  },
+  {
+    "id": "CF_068",
+    "question": "Why do storm surges sometimes coincide with extreme rainfall?",
+    "answer": "The same slow-moving or intense storm systems responsible for surge often carry large volumes of moisture, producing heavy rainfall."
+  },
+  {
+    "id": "CF_069",
+    "question": "How can seasonal cycles influence compound flood probability?",
+    "answer": "Stormy seasons often align with high-tide cycles or peak river discharge periods, creating potential for overlaps."
+  },
+  {
+    "id": "CF_070",
+    "question": "How do engineered seawalls impact compound flood behavior?",
+    "answer": "Seawalls block surge but can trap rainfall runoff, increasing water levels behind the barrier."
+  },
+  {
+    "id": "CF_071",
+    "question": "What is hydrodynamic coupling in the context of compound flooding?",
+    "answer": "Hydrodynamic coupling refers to the interaction of ocean, atmosphere, and river processes that affect water level dynamics simultaneously."
+  },
+  {
+    "id": "CF_072",
+    "question": "How can sediment transport influence compound flood impacts?",
+    "answer": "Sediment buildup can raise riverbeds, reducing channel capacity and increasing flood risk during combined events."
+  },
+  {
+    "id": "CF_073",
+    "question": "Why can compound flooding persist long after a storm has passed?",
+    "answer": "High river discharge and saturated soils can continue raising water levels even after surge and wind effects decline."
+  },
+  {
+    "id": "CF_074",
+    "question": "How do coastal aquifers respond to compound flooding?",
+    "answer": "Saltwater intrusion and rising groundwater during compound events can degrade aquifers and worsen surface flooding."
+  },
+  {
+    "id": "CF_075",
+    "question": "How does rainfall runoff interact with tide cycles?",
+    "answer": "Runoff drains more efficiently during low tide, but drainage slows significantly when runoff peaks during high tide."
+  },
+  {
+    "id": "CF_076",
+    "question": "Why is compound flooding more dangerous in rapidly urbanizing regions?",
+    "answer": "Urban growth increases impervious surfaces and replaces natural buffers, making drainage systems more prone to overload."
+  },
+  {
+    "id": "CF_077",
+    "question": "How can wave setup amplify storm surge during compound events?",
+    "answer": "Wave setup adds additional water height caused by breaking waves, raising total coastal water levels."
+  },
+  {
+    "id": "CF_078",
+    "question": "How do tides influence the effectiveness of river flood defenses?",
+    "answer": "High tides can reduce the carrying capacity of river channels, challenging upstream flood control measures."
+  },
+  {
+    "id": "CF_079",
+    "question": "What is the role of atmospheric pressure in flooding?",
+    "answer": "Low atmospheric pressure raises water levels through the inverse barometer effect, contributing to storm surge."
+  },
+  {
+    "id": "CF_080",
+    "question": "Why do compound floods pose challenges for emergency planners?",
+    "answer": "Multiple interacting hazards make prediction, evacuation timing, and resource allocation more difficult."
+  },
+  {
+    "id": "CF_081",
+    "question": "How do altered river channels affect compound flood outcomes?",
+    "answer": "Channelization or dredging can change flow speeds and volumes, influencing how river discharge interacts with coastal waters."
+  },
+  {
+    "id": "CF_082",
+    "question": "Why can reservoirs influence compound flood risk?",
+    "answer": "Reservoir releases can increase downstream discharge, which may coincide with elevated coastal water levels."
+  },
+  {
+    "id": "CF_083",
+    "question": "How does coastal erosion relate to compound flooding?",
+    "answer": "Erosion removes natural barriers like dunes and marshes, increasing exposure to surge and wave action."
+  },
+  {
+    "id": "CF_084",
+    "question": "What is the inverse barometer effect?",
+    "answer": "The inverse barometer effect refers to water-level rise caused by low atmospheric pressure."
+  },
+  {
+    "id": "CF_085",
+    "question": "How can groundwater saturation increase surface flood risk?",
+    "answer": "When groundwater levels are high, soils cannot absorb rainfall, leading to more surface runoff."
+  },
+  {
+    "id": "CF_086",
+    "question": "Why do compound floods often cause transportation disruptions?",
+    "answer": "Roads, bridges, and tunnels may be simultaneously impacted by rainfall and coastal floodwaters."
+  },
+  {
+    "id": "CF_087",
+    "question": "How does vegetation cover influence runoff during compound events?",
+    "answer": "Vegetation absorbs rainfall and slows surface runoff, reducing flood peaks."
+  },
+  {
+    "id": "CF_088",
+    "question": "How do narrow inlets affect storm surge propagation?",
+    "answer": "Narrow inlets can funnel surge inland, increasing water levels in bays and estuaries."
+  },
+  {
+    "id": "CF_089",
+    "question": "Why are barrier islands important in mitigating compound floods?",
+    "answer": "Barrier islands absorb wave energy and reduce the inland penetration of storm surge."
+  },
+  {
+    "id": "CF_090",
+    "question": "What makes flood tides particularly dangerous during storms?",
+    "answer": "Flood tides raise water levels during the rising tide phase, enhancing surge impacts."
+  },
+  {
+    "id": "CF_091",
+    "question": "How does channel depth influence compound flooding?",
+    "answer": "Shallow channels hold less water and may overflow more quickly during combined rainfall and surge events."
+  },
+  {
+    "id": "CF_092",
+    "question": "How do waves interact with storm surge during compound events?",
+    "answer": "Waves ride atop surge, allowing water to reach higher elevations onshore."
+  },
+  {
+    "id": "CF_093",
+    "question": "Why can compound flooding overwhelm stormwater pumps?",
+    "answer": "Pumps rely on discharge points that may be underwater during surge or high tide."
+  },
+  {
+    "id": "CF_094",
+    "question": "How does seasonal snowpack contribute to compound flooding?",
+    "answer": "Snowpack melt increases river discharge, which can overlap with storms that produce surge."
+  },
+  {
+    "id": "CF_095",
+    "question": "What is the role of wave run-up in coastal flooding?",
+    "answer": "Wave run-up pushes water higher onto shorelines, increasing total flood levels."
+  },
+  {
+    "id": "CF_096",
+    "question": "How do mudflats influence compound flood behavior?",
+    "answer": "Mudflats absorb wave energy but may fill rapidly during combined rainfall and surge events."
+  },
+  {
+    "id": "CF_097",
+    "question": "Why do estuarine systems react strongly to compound drivers?",
+    "answer": "Their mixing of saltwater and freshwater makes them sensitive to both coastal and riverine influences."
+  },
+  {
+    "id": "CF_098",
+    "question": "How can persistent rainfall before a storm increase flood magnitude?",
+    "answer": "Persistent rainfall saturates the landscape, increasing runoff when the primary storm arrives."
+  },
+  {
+    "id": "CF_099",
+    "question": "Why is surge timing relative to river peak discharge important?",
+    "answer": "If surge peaks at the same time as river discharge, backwater flooding intensifies greatly."
+  },
+  {
+    "id": "CF_100",
+    "question": "How does wetland loss influence regional flood dynamics?",
+    "answer": "Wetland loss removes natural water storage capacity, increasing vulnerability to combined rainfall and surge."
+  },
+  {
+    "id": "CF_101",
+    "question": "How do changing precipitation patterns influence compound flood risk?",
+    "answer": "More frequent and intense precipitation events increase runoff and river discharge, raising the likelihood that rainfall will coincide with coastal high-water conditions."
+  },
+  {
+    "id": "CF_102",
+    "question": "How do coastal embayments respond to compound floods?",
+    "answer": "Coastal embayments can trap surge and rainfall, prolonging high water levels and slowing drainage from inland regions."
+  },
+  {
+    "id": "CF_103",
+    "question": "What is a joint-probability flood event?",
+    "answer": "A joint-probability flood event occurs when multiple flood drivers reach extreme values simultaneously, such as rain and surge peaks overlapping."
+  },
+  {
+    "id": "CF_104",
+    "question": "How can slow-moving storms intensify compound flooding?",
+    "answer": "Slow storms deliver prolonged rainfall, allowing river discharge to rise while storm surge or high tide persists along the coast."
+  },
+  {
+    "id": "CF_105",
+    "question": "Why are stormwater retention ponds affected during compound floods?",
+    "answer": "Retention ponds may fill rapidly during heavy rainfall and cannot discharge effectively when coastal water levels are elevated."
+  },
+  {
+    "id": "CF_106",
+    "question": "How does salinity intrusion relate to compound flooding?",
+    "answer": "Compound floods can push saltwater farther inland, affecting freshwater ecosystems and groundwater supplies."
+  },
+  {
+    "id": "CF_107",
+    "question": "How does riverbank erosion worsen compound flood impacts?",
+    "answer": "Eroded banks reduce channel stability and capacity, increasing the likelihood of overbank flooding."
+  },
+  {
+    "id": "CF_108",
+    "question": "Why do compound flooding events often catch communities off guard?",
+    "answer": "Communities may prepare for one flood driver, such as rainfall, but underestimate the combined effects of surge and tides."
+  },
+  {
+    "id": "CF_109",
+    "question": "How can wind-driven rain add to compound flooding hazards?",
+    "answer": "Wind-driven rain can increase localized runoff and overwhelm drainage systems during surge or high water events."
+  },
+  {
+    "id": "CF_110",
+    "question": "What role does watershed land cover play in compound flooding?",
+    "answer": "Forested and vegetated areas slow runoff, while urban or cleared land increases flood peaks during compound events."
+  },
+  {
+    "id": "CF_111",
+    "question": "How does riverbed aggradation affect compound floods?",
+    "answer": "Aggradation raises the riverbed, reducing channel capacity and making upstream areas more susceptible to overbank flooding."
+  },
+  {
+    "id": "CF_112",
+    "question": "How do storm surge and precipitation interact to cause drainage failure?",
+    "answer": "Storm surge elevates downstream water levels, preventing efficient drainage of rainfall runoff from urban and river systems."
+  },
+  {
+    "id": "CF_113",
+    "question": "How can compound flooding affect groundwater quality?",
+    "answer": "Saltwater intrusion and mobilized contaminants from surface flooding can degrade groundwater quality."
+  },
+  {
+    "id": "CF_114",
+    "question": "What hydrological conditions precede major compound flood events?",
+    "answer": "High river levels, saturated soils, elevated tides, and approaching storms often precede major compound floods."
+  },
+  {
+    "id": "CF_115",
+    "question": "Why are barrier systems sometimes insufficient during compound events?",
+    "answer": "Barriers can block surge but do not stop rainfall accumulation behind them when drainage is restricted."
+  },
+  {
+    "id": "CF_116",
+    "question": "How do compound floods impact estuarine ecosystems?",
+    "answer": "Floodwaters alter salinity, turbidity, nutrient flows, and habitat conditions, affecting estuarine species."
+  },
+  {
+    "id": "CF_117",
+    "question": "Why is compound flooding a growing concern in coastal megacities?",
+    "answer": "Large populations, dense infrastructure, and low-lying terrain make megacities particularly vulnerable to overlapping flood drivers."
+  },
+  {
+    "id": "CF_118",
+    "question": "How does river flood timing influence surge impacts?",
+    "answer": "If river flood peaks align with surge or tides, the combined water level can exceed the capacity of levees and drainage systems."
+  },
+  {
+    "id": "CF_119",
+    "question": "Why is the concept of return period misleading for compound floods?",
+    "answer": "Return periods typically assess single drivers, but compound events occur due to joint probabilities of multiple drivers interacting."
+  },
+  {
+    "id": "CF_120",
+    "question": "How do backwater effects from surge propagate upstream?",
+    "answer": "Elevated coastal water levels increase downstream boundary conditions, restricting river flow and causing water levels to rise upstream."
+  },
+  {
+    "id": "CF_121",
+    "question": "What is the role of mangroves in reducing compound flood impacts?",
+    "answer": "Mangroves dampen wave energy, reduce surge, and slow surface runoff, mitigating compound flood severity."
+  },
+  {
+    "id": "CF_122",
+    "question": "How do synoptic-scale weather patterns influence compound floods?",
+    "answer": "Large-scale atmospheric patterns determine storm tracks, rainfall intensity, and wind direction, influencing compound flood timing."
+  },
+  {
+    "id": "CF_123",
+    "question": "Why do compound floods often extend farther inland than expected?",
+    "answer": "Backwater effects from surge combined with river discharge allow elevated water levels to propagate upstream."
+  },
+  {
+    "id": "CF_124",
+    "question": "How can coastal groundwater rise precede surface flooding?",
+    "answer": "Rising groundwater from surge or tides can reach the surface before rainfall accumulates, causing early flooding."
+  },
+  {
+    "id": "CF_125",
+    "question": "How does soil type influence compound flood behavior?",
+    "answer": "Clay and compacted soils drain poorly, increasing runoff, while sandy soils drain faster unless groundwater is already high."
+  },
+  {
+    "id": "CF_126",
+    "question": "Why can compound flooding cause sewage system failures?",
+    "answer": "Floodwaters infiltrate sewer systems and overwhelm pump stations, causing backups and overflows."
+  },
+  {
+    "id": "CF_127",
+    "question": "How does urban heat influence compound flooding indirectly?",
+    "answer": "Urban heat increases convection and precipitation potential, contributing to heavier rainfall events."
+  },
+  {
+    "id": "CF_128",
+    "question": "How do river deltas amplify storm surge?",
+    "answer": "Shallow, broad deltaic areas allow surge to propagate inland more effectively, increasing inundation."
+  },
+  {
+    "id": "CF_129",
+    "question": "How does rapid snowmelt combine with rainfall to cause compound flooding?",
+    "answer": "Rapid melting adds discharge to rivers, and when paired with intense rainfall, rivers overflow more easily."
+  },
+  {
+    "id": "CF_130",
+    "question": "How do shallow coastal shelves influence flood intensity?",
+    "answer": "Shallow shelves allow surge to build higher and push farther inland than deeper shelves."
+  },
+  {
+    "id": "CF_131",
+    "question": "Why do compound floods often produce prolonged inundation?",
+    "answer": "Slow drainage due to elevated coastal water levels keeps inland floodwaters trapped for extended periods."
+  },
+  {
+    "id": "CF_132",
+    "question": "How do strong pressure systems contribute to compound flooding?",
+    "answer": "Low pressure elevates water levels while strong winds drive surface water inland, worsening flooding."
+  },
+  {
+    "id": "CF_133",
+    "question": "How do storm patterns influence the coincidence of flood drivers?",
+    "answer": "Storm patterns dictate the alignment of rainfall peaks, surge timing, and tidal cycles."
+  },
+  {
+    "id": "CF_134",
+    "question": "How does channel narrowing affect compound flood dynamics?",
+    "answer": "Narrow channels hinder flow and elevate upstream water levels, especially during surge."
+  },
+  {
+    "id": "CF_135",
+    "question": "Why do regions with extensive levee systems still face compound flood risk?",
+    "answer": "Levees may block surge but cannot prevent inland rainfall accumulation or backflow from rivers."
+  },
+  {
+    "id": "CF_136",
+    "question": "How do dual-coastal storms produce compound flooding?",
+    "answer": "Two storms impacting nearby regions can generate overlapping rainfall and surge conditions."
+  },
+  {
+    "id": "CF_137",
+    "question": "How can sediment loss increase compound flooding vulnerability?",
+    "answer": "Sediment loss lowers coastal elevations, reducing natural protection from waves and surge."
+  },
+  {
+    "id": "CF_138",
+    "question": "How can local wind setup worsen river flooding?",
+    "answer": "Winds blowing upriver push water inland, raising water levels during rainfall or discharge peaks."
+  },
+  {
+    "id": "CF_139",
+    "question": "What is the difference between primary and secondary flood drivers?",
+    "answer": "Primary drivers include surge and rainfall, while secondary drivers like waves and tides modify total water levels."
+  },
+  {
+    "id": "CF_140",
+    "question": "How can vegetation loss near rivers worsen compound flooding?",
+    "answer": "Loss of vegetation increases runoff and reduces natural barriers to rising water."
+  },
+  {
+    "id": "CF_141",
+    "question": "How do coastal flood events influence riverine flood timing?",
+    "answer": "Elevated coastal water levels can delay river discharge, causing river floods to peak later and higher."
+  },
+  {
+    "id": "CF_142",
+    "question": "Why do compound floods challenge traditional flood hazard maps?",
+    "answer": "Traditional maps often model drivers independently, underestimating risks when flood drivers overlap."
+  },
+  {
+    "id": "CF_143",
+    "question": "How do multiday storms influence compound flooding?",
+    "answer": "Multiday storms produce prolonged rainfall that overlaps with storm surge cycles and high tides."
+  },
+  {
+    "id": "CF_144",
+    "question": "How can storm surge accelerate river flooding upstream?",
+    "answer": "Surge increases downstream water levels, pushing water up the river and raising upstream flood heights."
+  },
+  {
+    "id": "CF_145",
+    "question": "Why is compound flood risk rising globally?",
+    "answer": "Climate change intensifies rainfall, raises sea levels, and increases storm surge potential, amplifying hazard frequency."
+  },
+  {
+    "id": "CF_146",
+    "question": "How does tidal locking influence compound flooding?",
+    "answer": "Tidal locking occurs when storms slow near coastlines, aligning peak rainfall with tidal highs and increasing flood severity."
+  },
+  {
+    "id": "CF_147",
+    "question": "What is concurrent flooding?",
+    "answer": "Concurrent flooding occurs when multiple flood types, such as pluvial and coastal flooding, occur at the same time."
+  },
+  {
+    "id": "CF_148",
+    "question": "Why do compound floods strain emergency response systems?",
+    "answer": "Simultaneous hazards create complex logistics, overwhelming evacuation routes and response infrastructure."
+  },
+  {
+    "id": "CF_149",
+    "question": "How can machine learning help predict compound flooding?",
+    "answer": "Machine learning can analyze large datasets to detect patterns among rainfall, surge, tide, and river discharge interactions."
+  },
+  {
+    "id": "CF_150",
+    "question": "Why is compound flooding considered a multi-hazard phenomenon?",
+    "answer": "Because it results from multiple environmental drivers interacting across atmospheric, riverine, and coastal systems."
+  }
+]
+
+
+
